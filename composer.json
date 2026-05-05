@@ -1,0 +1,40 @@
+{
+    "name": "arqel-dev/framework",
+    "description": "Arqel framework — meta-package that pulls the full stack (core + auth + fields + form + actions + nav + table). Install with `composer require arqel-dev/framework`.",
+    "type": "metapackage",
+    "license": "MIT",
+    "homepage": "https://arqel.dev",
+    "keywords": [
+        "arqel",
+        "laravel",
+        "admin-panel",
+        "inertia",
+        "react",
+        "shadcn",
+        "framework"
+    ],
+    "support": {
+        "issues": "https://github.com/arqel-dev/arqel/issues",
+        "source": "https://github.com/arqel-dev/arqel",
+        "docs": "https://arqel.dev"
+    },
+    "authors": [
+        {
+            "name": "Diogo C. Coutinho",
+            "email": "diogo.coutinho.ads@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "arqel-dev/core": "^0.8.0",
+        "arqel-dev/auth": "^0.8.0",
+        "arqel-dev/fields": "^0.8.0",
+        "arqel-dev/form": "^0.8.0",
+        "arqel-dev/actions": "^0.8.0",
+        "arqel-dev/nav": "^0.8.0",
+        "arqel-dev/table": "^0.8.0",
+        "inertiajs/inertia-laravel": "^1.0|^2.0|^3.0"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
